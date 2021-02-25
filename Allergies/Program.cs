@@ -18,7 +18,6 @@ namespace AllergyChecker
       {
         Main();
       }
-
     }
   }
 }
