@@ -1,43 +1,36 @@
-# _{Application Name}_
+# _Allergy Score_
 
-#### _{Brief description of application}_
+#### _Enter your allergen score and the program will list your allergies._
 
-#### By _**Louie Schoenknecht**_
-
+#### By _**Louie Schoenknecht**_ and _**Glen Buck**_
 ## Technologies Used
 
-* _HTML5/CSS3_
-* _Bootstrap 4.6.0_
-* _JavaScript ES6_
-* _jQuery 3.5.1_
-* _Node Package Manager 6.14.9_
-* _webpack 4.39.3_
-* _Babel 7.6.4_
-* _eslint 6.3.0_
-* _Jest 24.9.0_
+* _C#_
+* _.NET_
+* _MSBuild_
+* _MSTest_
 
-## Description
-
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
 
 ## Setup/Installation Requirements
 
-* _Clone repository from GitHub using: $ git clone https://github.com/louiesch/template-repo_
+* _Clone repository from GitHub using: $ git clone https://github.com/louiesch/allergy-score_
 * _Open project directory in terminal_
-* _Re-build project environment using command $ npm install_
-* _Create project environment using command $ npm run build_
-* _Open the project in browser using command $ npm run start_
+* _If Node is not installed do so with:_
+  >run npm install
+* _To build project, in the terminal, type:_
+  >dotnet build
+* _Then to run project, type:_
+  >dotnet run
+* _Follow and respond to prompts in command line_
+
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs_
 
 ## License
 
-_[MIT](https://choosealicense.com/licenses/mit/)_
-
-_Copyright (c) 2021 Louie Schoenknecht_
+_[MIT](https://choosealicense.com/licenses/mit/) Copyright (c) 2021 Louie Schoenknecht & Glen Buck_
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -48,4 +41,4 @@ SOFTWARE.
 
 ## Contact Information
 
-_Get in touch: luisesch97@gmail.com_
+_Get in touch: luisesch97@gmail.com_ || glenbuck503@gmail.com
