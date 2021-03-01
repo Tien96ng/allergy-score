@@ -7,6 +7,7 @@ namespace Allergies.Models
   public class AllergyScore
   {
 
+    public string Score { get; set; }
 
     public string GetAllergyScore(int score)
     {

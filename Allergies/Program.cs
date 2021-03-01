@@ -1,11 +1,26 @@
-using System;
-using Allergies.Models;
-using System.Collections.Generic;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
 
-namespace AllergyChecker
+namespace Allergies
 {
   public class Program
   {
+    public static void Main(string[] args)
+    {
+     var host = new WebHostBuilder()
+        .UseKestrel()
+        .UseContentRoot(Directory.GetCurrentDirectory())
+        .UseIISIntegration()
+        .UseStartup<Startup>()
+        .Build();
+
+      host.Run();
+    }
+  }
+}
+
+/*
+
     public static void Main()
     {
       Console.WriteLine("Please enter your allergy score to find out what you are allergic to: ");
@@ -19,5 +34,5 @@ namespace AllergyChecker
         Main();
       }
     }
-  }
-}
+
+*/
